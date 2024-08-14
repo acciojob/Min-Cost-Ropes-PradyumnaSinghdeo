@@ -9,12 +9,12 @@ function mincost(arr)
     
     while (minHeap.length > 1) {
         // Extract the two smallest ropes
-        let first = minHeap.shift();  // Extract the smallest rope
-        let second = minHeap.shift(); // Extract the second smallest rope
+        let first = minHeap.shift();  
+        let second = minHeap.shift(); /
         
         let cost = first + second;
         
-        // Add the cost to the total cost
+        
         totalCost += cost;
         
         minHeap.push(cost);
